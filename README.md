@@ -1,2 +1,2 @@
 # Q_VTEX
-sad
+clothing online store support, templates, checkout, css, js
