@@ -1,0 +1,146 @@
+#hotsale-18 {
+    text-align: center;
+    background-color: black;
+    padding: 300px 0px;
+}
+
+#img-hotsale-18 {
+    border-right: white 2px solid;
+    padding-right: 65px;
+    display: grid;
+}
+
+#img-hotsale-18 img{
+	float: right;
+	width: 100%;
+}
+
+#formulario-hotsale-18 p {
+    margin-bottom: -35px;
+    color: white;    
+    font-style: italic;
+}
+
+#formulario-hotsale-18-p1{
+	font-size: 55px;
+}
+
+#formulario-hotsale-18-p2{
+	font-size: 85px;
+}
+
+
+#formulario-hotsale-18 .contFooter.formNewsLetter-v2 {
+    margin-top: 60px;
+}
+
+#chack-title1 {
+    font-size: 30px;
+    font-style: initial !important;
+}
+
+.cont-checkBox {
+    padding: 25px 1% 1% 1%;
+    display: inline-flex;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+#hotsale-18 .checkbox.chack-1 {
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+#le-nombre, #le-email {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+    width: 65%;
+}
+
+.contInputForm.sectionSubmit.contentSubmit button {
+    border: none;
+    background-color: white;
+    padding: 12px 75px;
+}
+
+#le-submit-event {
+    color: red;
+    font-size: 23px;
+}
+
+#le-selectMan, #le-selectWoman{
+	margin-right: 7px;
+}
+
+.checkbox.chack-1 label {
+    font-size: 23px;
+    color: white;
+}
+
+#getting-started {
+    color: white;
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+#le-email-error {
+    font-size: 20px;
+    color: #e91f2d;
+}
+
+
+@media(min-width: 1024px) and (max-width: 1439px){
+	#hotsale-18{
+		padding: 100px 0px;
+	}
+}
+
+@media(min-width: 1440px) and (max-width: 1919px){
+	#hotsale-18{
+		padding: 200px 0px;
+	}
+}
+
+@media (max-width: 450px){
+    #hotsale-18{
+        padding: 11px 0px;
+    }
+    #img-hotsale-18{
+        padding-right: 0px;
+    }
+    #getting-started{
+        margin-top: 0px;
+        line-height: 70px;
+        margin-bottom: 15px;
+        font-size: 46px;
+    }
+    #formulario-hotsale-18-p1 {
+        font-size: 30px;
+    }
+    #formulario-hotsale-18-p2 {
+        font-size: 50px;
+        line-height: 100px;
+    }
+    #formulario-hotsale-18 .contFooter.formNewsLetter-v2{
+        margin-top: 40px;
+    }
+    .checkbox.chack-1 label {
+        font-size: 19px;
+    }
+    #chack-title1 {
+        font-size: 25px;
+    }
+    .contInputForm.sectionSubmit.contentSubmit button{
+        padding: 5px 75px;
+        margin-top: 10px;
+    }
+    #img-hotsale-18 img{
+        width: 92%;
+    }
+}
